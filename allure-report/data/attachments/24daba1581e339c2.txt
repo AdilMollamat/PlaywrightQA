@@ -1,0 +1,22 @@
+7
+[
+  'First American Home Warranty Reviews',
+  "With a home warranty from First American, you don't have to worry about unexpected repair or replacement bills. You can focus on what matters most.",
+  'Based on actual invoices paid by First American Home Warranty in 2017.',
+  "With a home warranty from First American, you don't have to worry about unexpected repair or replacement bills. You can focus on what matters most.",
+  "*Please read your contract for specific coverage and limitations. In some instances, Homeowner and First American may agree to payment of cash in lieu of repair or replacement. Payment will be made based on First American's negotiated rates with its suppliers, which may be less than retail.",
+  "*Please read your contract for specific coverage and limitations. In some instances, Homeowner and First American may agree to payment of cash in lieu of repair or replacement. Payment will be made based on First American's negotiated rates with its suppliers, which may be less than retail.",
+  '\n' +
+    '\t\t\t\t\t\t© 2026 First American Home Warranty Corporation and its licensed subsidiaries. All rights reserved.\n' +
+    '\t\t\t\t\t'
+]
+7
+****** First American Home Warranty Reviews
+****** With a home warranty from First American, you don't have to worry about unexpected repair or replacement bills. You can focus on what matters most.
+****** Based on actual invoices paid by First American Home Warranty in 2017.
+****** With a home warranty from First American, you don't have to worry about unexpected repair or replacement bills. You can focus on what matters most.
+****** *Please read your contract for specific coverage and limitations. In some instances, Homeowner and First American may agree to payment of cash in lieu of repair or replacement. Payment will be made based on First American's negotiated rates with its suppliers, which may be less than retail.
+****** *Please read your contract for specific coverage and limitations. In some instances, Homeowner and First American may agree to payment of cash in lieu of repair or replacement. Payment will be made based on First American's negotiated rates with its suppliers, which may be less than retail.
+****** 
+						© 2026 First American Home Warranty Corporation and its licensed subsidiaries. All rights reserved.
+					
