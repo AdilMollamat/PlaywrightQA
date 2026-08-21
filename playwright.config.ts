@@ -3,10 +3,13 @@ import dotenv from 'dotenv';
 import path from 'path';
 
 // Pick the environment name from the terminal, default to development
-const environment = process.env.ENV || 'dev';
+const environment = process.env.ENV || 'https://playwright.dev';
 
 // Load the matching .env file
 dotenv.config({ path: path.resolve(__dirname, `.env.${environment}`) });
+
+// Define a dynamic path for this environment's login session
+export const STORAGE_STATE = path.join(__dirname, `playwright/.auth/storageState.${environment}.json`);
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -54,12 +57,22 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
+      /*
+      // 1. Setup Phase: Logs in and saves the session file
+      {
+        name: 'setup',
+        testMatch: /.*\.setup\.ts/,
+      },
+      */
+
       name: 'chromium',
       use: { 
         ...devices['Desktop Chrome'],
+        storageState: STORAGE_STATE, // Automatically picks the correct env json file
         viewport: null,               // Removes the fixed size
         deviceScaleFactor: undefined, // Removes the conflict error 
       },
+      //dependencies: ['setup'], // Ensures setup runs before tests
     },
 
     {
