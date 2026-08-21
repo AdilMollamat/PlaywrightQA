@@ -29,4 +29,8 @@ export class HomePage {
         await expect(this.installationHeader).toBeVisible();
     }
 
+    async clickLinkByText (linkTxt: string) {
+        await this.page.getByRole('link', { name: linkTxt }).click();
+    }
+
 }
